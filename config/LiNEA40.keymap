@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -148,7 +148,7 @@
         MARK {
             bindings = <
 &trans          &kp N7        &kp NUMBER_8  &kp NUMBER_9  &trans                    &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp MINUS      &kp EQUAL
-&trans          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans                    &kp HOME   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH       &kp SINGLE_QUOTE
+&trans          &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans                    &kp HOME   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT         &kp SINGLE_QUOTE
 &kp LEFT_SHIFT  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                    &kp END    &kp BACKSLASH         &kp SLASH              &kp LESS_THAN  &kp GREATER_THAN
 &trans          &trans        &kp NUMBER_0  &trans        &trans  &trans    &trans  &trans                           &trans                 &trans         &kp CARET
             >;
